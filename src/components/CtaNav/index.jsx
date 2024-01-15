@@ -1,7 +1,11 @@
-export default function CtaNav({ title }) {
+import { NavLink } from 'react-router-dom'
+
+export default function CtaNav({ path, className, children }) {
     return (
         <>
-            <h2>{title}</h2>
+            <NavLink to={path} className={className}>
+                {children}
+            </NavLink>
         </>
     )
 }

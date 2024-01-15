@@ -1,14 +1,14 @@
 import logo from '../../assets/logo.png'
-import CtaNav from '../../components/CtaNav'
+// import { Link } from 'react-router-dom'
 
 export default function Home() {
     return (
         <>
             <img src={logo} alt='logo site' />
-            <CtaNav title='RECETTES  DE  RORO' />
-            <CtaNav title='VOS  RECETTES' />
-            <CtaNav title='TRUCS  &  ASTUCES' />
-            <CtaNav title='CONTACT' />
+            <h2>RECETTES  DE  RORO</h2>
+            <h2>VOS  RECETTES</h2>
+            <h2>TRUCS  &  ASTUCES</h2>
+            <h2>CONTACT</h2>
         </>
     )
   }
